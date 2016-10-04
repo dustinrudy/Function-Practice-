@@ -58,6 +58,12 @@ console.log(translate('ba'))
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
+function reverse(phrase){
+    var newword = "";
+    for (var i = phrase.length-1; i > -1; i -= 1) {
+    	newword += phrase[i]
+    }
+return newword;
 }
+
+console.log(reverse('Dick'))

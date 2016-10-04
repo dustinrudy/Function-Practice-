@@ -69,7 +69,6 @@ function greaterThan(x,y){
 	else {
 		return false
 	}
-	
 }
 
 console.log(greaterThan(5,2))
